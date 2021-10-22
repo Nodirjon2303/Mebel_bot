@@ -233,7 +233,7 @@ def command_furniture(update, context):
     query.message.reply_text('O\'zingiz uchun kerakli mebelni tanlang ')
 
 
-updater = Updater('1945109840:AAE_hLSDKMXPhzUn1Lt1t9MeYRykvcbhlSg')
+updater = Updater('YOUR BOT TOKEN ')
 
 con_hand = ConversationHandler(
     entry_points=[CommandHandler('start', start)],
